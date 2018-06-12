@@ -53,6 +53,7 @@ public class CoinDispenserDemo {
                     System.out.println("");
                 } catch (DispenserError ex) {
                     Logger.getLogger(CoinDispenser.class.getName()).log(Level.SEVERE, null, ex);
+                    System.out.println("ciaooo0");
                 }
             }
         }
